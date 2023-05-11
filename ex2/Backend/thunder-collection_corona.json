@@ -1,0 +1,117 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "corona",
+    "dateExported": "2023-05-11T08:49:49.934Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c111c5ec-3015-4a13-ad6d-79e119289703",
+            "colId": "31be5475-d95a-4a08-aebb-83ff01bec271",
+            "containerId": "",
+            "name": "Get the corona information of all members ",
+            "url": "http://localhost:4001/api/corona/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-05-11T08:33:18.227Z",
+            "modified": "2023-05-11T08:38:01.154Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1cca502f-57cf-4f45-8dce-4ebb6d12767b",
+            "colId": "31be5475-d95a-4a08-aebb-83ff01bec271",
+            "containerId": "",
+            "name": "Get the corona information of one member by id",
+            "url": "http://localhost:4001/api/corona/single/:id",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-05-11T08:35:01.519Z",
+            "modified": "2023-05-11T08:35:15.235Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a581b556-ebd3-4a29-9bf7-c6f04745d163",
+            "colId": "31be5475-d95a-4a08-aebb-83ff01bec271",
+            "containerId": "",
+            "name": "Add corona information of new member",
+            "url": "http://localhost:4001/api/corona/",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-05-11T08:36:17.136Z",
+            "modified": "2023-05-11T08:38:25.401Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"id\": \"201056604\",\n    \"positive_result\": \"2023-05-03T00:00:00.000Z\",\n    \"recuperation\": \"2023-05-17T00:00:00.000Z\",\n    \"vaccines\": [],\n    \"vaccinated\": true\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "116e578e-66a6-4fea-ab07-fa95ba0ada9a",
+            "colId": "31be5475-d95a-4a08-aebb-83ff01bec271",
+            "containerId": "",
+            "name": "Updating the vaccination details of a single member",
+            "url": "http://localhost:4001/api/corona/",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2023-05-11T08:39:40.652Z",
+            "modified": "2023-05-11T08:43:16.806Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n      \"num_vaccine\": \"1\",\n      \"vaccination_date\": \"2023-05-03\",\n      \"manufacturer\": \"fyzer\",\n      \"id\": \"339149882\"\n    }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "37c6685c-fd48-4fae-b979-a4d3be145e33",
+            "colId": "31be5475-d95a-4a08-aebb-83ff01bec271",
+            "containerId": "",
+            "name": "Update on receiving a positive result for Corona",
+            "url": "http://localhost:4001/api/corona/:id/:positive/:rec",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2023-05-11T08:44:55.130Z",
+            "modified": "2023-05-11T08:46:23.389Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1240085d-1e72-4fa0-896e-469dbd75cf7a",
+            "colId": "31be5475-d95a-4a08-aebb-83ff01bec271",
+            "containerId": "",
+            "name": "Get the number of vaccinated from all members",
+            "url": "http://localhost:4001/api/corona/vaccinated",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2023-05-11T08:47:28.697Z",
+            "modified": "2023-05-11T08:47:33.475Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "52d4fdd4-ee31-4aef-a9a3-2c96ba664494",
+            "colId": "31be5475-d95a-4a08-aebb-83ff01bec271",
+            "containerId": "",
+            "name": "Get a number of active patients on a specific date from all members",
+            "url": "http://localhost:4001/api/corona/active/:date",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2023-05-11T08:48:56.827Z",
+            "modified": "2023-05-11T08:49:28.823Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

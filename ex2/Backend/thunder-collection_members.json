@@ -1,0 +1,70 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "members",
+    "dateExported": "2023-05-11T09:06:52.985Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "7c14a45e-a460-4e3b-925c-6ae2b35c6be5",
+            "colId": "4935ff17-c851-40b3-b1be-f9b542c50f3f",
+            "containerId": "",
+            "name": "Get all members with the information on corona",
+            "url": "http://localhost:4001/api/member",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-05-11T08:51:21.032Z",
+            "modified": "2023-05-11T08:51:25.848Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a962bcf5-ce6b-49b1-b5ac-5b1004961dd5",
+            "colId": "4935ff17-c851-40b3-b1be-f9b542c50f3f",
+            "containerId": "",
+            "name": "Get one member by id",
+            "url": "http://localhost:4001/api/member/:id",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-05-11T08:51:56.315Z",
+            "modified": "2023-05-11T08:52:05.639Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "7dfcc2d6-b4f1-4862-b59a-1ec210f63ac1",
+            "colId": "4935ff17-c851-40b3-b1be-f9b542c50f3f",
+            "containerId": "",
+            "name": "Add new member",
+            "url": "http://localhost:4001/api/member",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-05-11T08:52:49.403Z",
+            "modified": "2023-05-11T08:54:11.321Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"first_name\": \"reut\",\n  \"last_name\": \"yakobovich\",\n  \"id\": \"201056804\",\n  \"city\": \"jerusalem\",\n  \"street\": \"koifman\",\n  \"home_number\": 13,\n  \"date_birth\": \"1989-05-25T00:00:00.000Z\",\n  \"phone\": \"02--5843797\",\n  \"cellular\": \"0504120583\",\n  \"picture_name\": \"49fa66d7-b169-4035-9d96-5b4a80d244fd.jpg\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "24799295-2c81-498c-aa0a-b67dd1ae3f7e",
+            "colId": "4935ff17-c851-40b3-b1be-f9b542c50f3f",
+            "containerId": "",
+            "name": "Get the photo of the member",
+            "url": "http://localhost:4001/api/member/images/:imageName",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-05-11T08:55:32.588Z",
+            "modified": "2023-05-11T09:00:31.806Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
