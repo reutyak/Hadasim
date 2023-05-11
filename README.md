@@ -13,7 +13,7 @@ The second graph shows the number of active patients on each day of the last mon
 
 List: On the List screen you can view the list of all HMO members with all their personal details including a photo and their personal information regarding the corona virus, use of server's requests by http://localhost:4001/api/member and http://localhost:4001/api/member/images/:imageName. You can update a positive answer to Corona, Use of a server's request by http://localhost:4001/api/corona/:id/:positive/:rec as well as receiving vaccinations, Use of a server's request by http://localhost:4001/api/corona/.
 
-![image](https://github.com/reutyak/Hadasim/assets/109149486/845b188b-9ea4-4237-b17e-f2873cabf378)
+![image](https://github.com/reutyak/Hadasim/assets/109149486/cd9a5b98-d7d6-43c3-9a23-fa4e40d0556e)
 
 Add: On Add screen you can add a new member to the HMO with all his personal details. Use of a server's request by http://localhost:4001/api/member
 
