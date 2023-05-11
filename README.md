@@ -1,6 +1,6 @@
 EX1
 This program was written in Python,
-The writing and running of the program was done in the pycharm environment.
+The writing and running of the program was done in the pyCharm environment.
 
 EX2
 This application implements a server side and a database and a client side for a system to manage a corona database for HMO. The application was built using technologies MERN (Mongodb, Express, React, Node.js). The entire project is created in all its parts on a local server. Client side The client side includes three main screens. Home / List / Add Home: On the Home screen you can view two graghs. The first graph shows the number of vaccinated versus the number of unvaccinated. Use of a server's request by http://localhost:4001/api/corona/vaccinated.
